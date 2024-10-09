@@ -1,0 +1,74 @@
+{
+  "name": "@wiz-develop/eslint-config",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Wiz developer's ESLint rules as an extensible shared config.",
+  "license": "MIT",
+  "author": "kakiuchi-shigenao <87973394+endou-mame@users.noreply.github.com>",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./configs/index.js"
+    }
+  },
+  "main": "./configs/index.js",
+  "files": [
+    "configs",
+    "rules"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wiz-develop/eslint-config.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "flat-config",
+    "flatconfig",
+    "flatConfig"
+  ],
+  "bugs": {
+    "url": "https://github.com/wiz-develop/eslint-config/issues"
+  },
+  "homepage": "https://github.com/wiz-develop/eslint-config#readme",
+  "dependencies": {
+    "@nuxt/eslint-config": "^0.5.7",
+    "@typescript-eslint/eslint-plugin": "^8.7.0",
+    "@typescript-eslint/parser": "^8.7.0",
+    "@vitest/eslint-plugin": "^1.1.4",
+    "confusing-browser-globals": "^1.0.11",
+    "eslint-import-resolver-typescript": "^3.6.3",
+    "eslint-plugin-import": "^2.30.0",
+    "eslint-plugin-jsdoc": "^50.2.4",
+    "eslint-plugin-n": "^17.10.3",
+    "eslint-plugin-promise": "^7.1.0",
+    "eslint-plugin-unicorn": "^55.0.0",
+    "eslint-plugin-vue": "^9.28.0",
+    "globals": "^15.9.0",
+    "vue-eslint-parser": "^9.4.3"
+  },
+  "devDependencies": {
+    "@types/confusing-browser-globals": "^1.0.3",
+    "@types/eslint": "^9.6.1",
+    "eslint": "^8.57.0",
+    "typescript": "^5.6.2",
+    "prettier": "^3.3.3",
+    "prettier-plugin-organize-imports": "^4.1.0"
+  },
+  "peerDependencies": {
+    "eslint": "^8.57.0",
+    "typescript": "^4.7.5 || ^5.0.0"
+  },
+  "peerDependenciesMeta": {
+    "typescript": {
+      "optional": true
+    }
+  },
+  "packageManager": "pnpm@9.9.0",
+  "engines": {
+    "node": ">= 18.18.0 || >= 20.0.0",
+    "npm": "use pnpm please!",
+    "pnpm": ">=9.9.0",
+    "yarn": "use pnpm please!"
+  }
+}

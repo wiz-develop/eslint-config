@@ -1,0 +1,28 @@
+{
+  "editor.bracketPairColorization.enabled": true,
+  "editor.formatOnPaste": false,
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "never",
+    "source.fixAll.eslint": "explicit"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  // "editor.tabSize": 2,
+  "editor.rulers": [100],
+  // ESLint settings
+  "eslint.workingDirectories": [],
+  "eslint.enable": true,
+  "eslint.validate": ["js", "ts", "vue"],
+  // prettier settings
+  "prettier.enable": true,
+  "prettier.configPath": "./prettier.config.js",
+  "prettier.ignorePath": "./.gitignore",
+  // highlight settings
+  "todohighlight.defaultStyle": { "border": "1px solid #FFF", "borderRadius": "3px" },
+  "todohighlight.keywords": [
+    { "text": "BUG:", "color": "#FFFFFF", "backgroundColor": "#DC3545" },
+    { "text": "NOTE:", "color": "#FFFFFF", "backgroundColor": "#98C379" },
+    { "text": "HACK:", "color": "#FFFFFF", "backgroundColor": "#C678DD" },
+    { "text": "DEBUG:", "color": "#FFFFFF", "backgroundColor": "#61AFEF" }
+  ]
+}
