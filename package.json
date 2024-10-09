@@ -1,7 +1,6 @@
 {
   "name": "@wiz-develop/eslint-config",
   "version": "1.0.0",
-  "private": true,
   "description": "Wiz developer's ESLint rules as an extensible shared config.",
   "license": "MIT",
   "author": "kakiuchi-shigenao <87973394+endou-mame@users.noreply.github.com>",
